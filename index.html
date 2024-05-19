@@ -13,35 +13,38 @@
 <body>
     <div class="container">
         <div class="calculator">
-            <input type="text" class="display" readonly>
-            <div class="calc-row">
-                <button class="calc-btn special-btn">C</button>
-                <button class="calc-btn outer-btn">&larr;</button>
-                <button class="calc-btn outer-btn">%</button>
-                <button class="calc-btn outer-btn">/</button>
+            <div class="display">
+                <div class="result"></div>
+                <div class="ongoing"></div>
             </div>
             <div class="calc-row">
-                <button class="calc-btn">7</button>
-                <button class="calc-btn">8</button>
-                <button class="calc-btn">9</button>
-                <button class="calc-btn outer-btn">*</button>
+                <button class="calc-btn special-btn" value="c">C</button>
+                <button class="calc-btn outer-btn" value="Backspace">&larr;</button>
+                <button class="calc-btn outer-btn" value="%">%</button>
+                <button class="calc-btn outer-btn" value="/">/</button>
             </div>
             <div class="calc-row">
-                <button class="calc-btn">4</button>
-                <button class="calc-btn">5</button>
-                <button class="calc-btn">6</button>
-                <button class="calc-btn outer-btn">-</button>
+                <button class="calc-btn" value="7">7</button>
+                <button class="calc-btn" value="8">8</button>
+                <button class="calc-btn" value="9">9</button>
+                <button class="calc-btn outer-btn" value="*">*</button>
             </div>
             <div class="calc-row">
-                <button class="calc-btn">1</button>
-                <button class="calc-btn">2</button>
-                <button class="calc-btn">3</button>
-                <button class="calc-btn outer-btn">+</button>
+                <button class="calc-btn" value="4">4</button>
+                <button class="calc-btn" value="5">5</button>
+                <button class="calc-btn" value="6">6</button>
+                <button class="calc-btn outer-btn" value="-">-</button>
+            </div>
+            <div class="calc-row">
+                <button class="calc-btn" value="1">1</button>
+                <button class="calc-btn" value="2">2</button>
+                <button class="calc-btn" value="3">3</button>
+                <button class="calc-btn outer-btn" value="+">+</button>
             </div>
             <div class="calc-row bottom-row">
-                <button class="calc-btn">0</button>
-                <button class="calc-btn">.</button>
-                <button class="calc-btn equals-btn special-btn">=</button>
+                <button class="calc-btn" value="0">0</button>
+                <button class="calc-btn" value=".">.</button>
+                <button class="calc-btn equals-btn special-btn" value="=">=</button>
             </div>
         </div>
     </div>
